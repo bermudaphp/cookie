@@ -1,1 +1,4 @@
-# cookie
+# Install
+```bash
+composer require bermudaphp/cookie
+````
