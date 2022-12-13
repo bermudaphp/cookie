@@ -34,7 +34,7 @@ final class CookieParams implements Arrayable
      */
     public static function createFromArray(array $params): self
     {
-        if (!isset($params['name'])) {
+        if (!isset($params[self::name])) {
             throw new \InvalidArgumentException(
                 'Missing require element of name in params array'
             );
