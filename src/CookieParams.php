@@ -2,7 +2,7 @@
 
 namespace Bermuda\HTTP\Cookie;
 
-use Bermuda\Arrayable;
+use Bermuda\Stdlib\Arrayable;
 use Dflydev\FigCookies\FigResponseCookies;
 use Dflydev\FigCookies\Modifier\SameSite;
 use Dflydev\FigCookies\SetCookie;
